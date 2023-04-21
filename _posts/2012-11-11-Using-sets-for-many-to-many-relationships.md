@@ -330,37 +330,22 @@ country, so we have to have a many-to-many relationship here.
 **Numbers**
 
 <table class="table table-bordered">
-<tr>
-<th>
-Table
-</th>
-<th>
-# of rows
-</th>
-</tr>
-<tr>
-<td>
-Song
-</td>
-<td>
-2.5 million
-</td>
-</tr>
-<tr>
-<td>
-LocalizedSong (song/country)
-</td>
-<td>
-12 million
-</td>
-</tr>
-<td>
-DistributionType (ways to sell)
-</td>
-<td>
-34
-</td>
-</tr>
+  <tr>
+    <th>Table</th>
+    <th># of rows</th>
+  </tr>
+  <tr>
+    <td>Song</td>
+    <td>2.5 million</td>
+  </tr>
+  <tr>
+    <td>LocalizedSong (song/country)</td>
+    <td>12 million</td>
+  </tr>
+  <tr>
+    <td>DistributionType (ways to sell)</td>
+    <td>34</td>
+  </tr>
 </table>
 
 We have in average 10-15 different distribution type relationships for
