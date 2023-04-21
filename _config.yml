@@ -2,9 +2,8 @@ title: Francisco Soto
 author: Francisco Soto
 
 url: "https://ebobby.org"
-paginate_path: "/blog/page:num/"
-paginate: 6
 
+ignore_theme_config: true
 footer_only_homepage: true
 
 profile-picture: assets/profile.png
@@ -15,8 +14,5 @@ sass:
     style: compressed
     sass_dir: css
 
-navbar:
- - name: "tags"
-   absolute-link: "/tags"
- - name: "about"
-   absolute-link: "/"
+plugins:
+  - jekyll-feed

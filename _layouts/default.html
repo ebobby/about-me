@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+  {% include head.html %}
+  <body>
+    <h1>
+      {% if page.title %}
+        {{page.title}}
+      {% else %}
+         Blog
+      {% endif %}
+    </h1>
 
-{% include head.html %}
+	  <a href="/">Home</a> | <a href="/blog">Blog</a>
 
-<body>
-    <div class="container">
-        {% include navbar.html %}
-        <div class="page-title">
-            {{page.title}}
-        </div>
-        <div class="content">
-            {{ content }}
-        </div>
-        {% include footer.html %}
-    </div>
-</body>
+    {{ content }}
+  </body>
+</html>

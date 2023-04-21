@@ -1,4 +1,4 @@
-div.queens-container       { clear: both; width: 840px; margin: 0 auto; }
+div.queens-container       { clear: both; margin: 0 auto; }
 div.queens-board_container { float: left; }
 table.queens-board         { border: solid 1px black; margin: 0 auto; }
 table.queens-board td      { width: 30px; height: 30px; }
