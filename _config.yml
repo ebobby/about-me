@@ -3,16 +3,12 @@ author: Francisco Soto
 
 url: "https://ebobby.org"
 
-ignore_theme_config: true
 footer_only_homepage: true
 
 profile-picture: assets/profile.png
-favicon_location: assets/favicon.png
+favicon_location: favicon.png
 
 permalink: /:year/:month/:day/:title/
-sass:
-    style: compressed
-    sass_dir: css
 
 plugins:
   - jekyll-feed

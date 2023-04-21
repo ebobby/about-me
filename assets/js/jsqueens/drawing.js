@@ -6,8 +6,8 @@ var Draw = (function () {
     FIRST_SQUARE = Constants.FIRST_BOARD_SQUARE,
     CLASS_WHITE_SQUARE = "queens-white_square",
     CLASS_BLACK_SQUARE = "queens-black_square",
-    IMG_WHITE_QUEEN = '<img src="/assets/white_queen.png" />',
-    IMG_BLACK_QUEEN = '<img src="/assets/black_queen.png" />',
+    IMG_WHITE_QUEEN = '<img src="/assets/images/white_queen.png" />',
+    IMG_BLACK_QUEEN = '<img src="/assets/images/black_queen.png" />',
     DOMQueens = null;
 
   function _init() {

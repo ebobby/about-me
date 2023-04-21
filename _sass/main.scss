@@ -1,0 +1,41 @@
+html {
+    background-color: #fafafa;
+    color: #141414;
+    font-family:sans-serif;
+}
+
+body {
+    line-height:1.5;
+    margin:0 auto;
+    max-width:80ch;
+    padding:1rem;
+    width:100%;
+}
+
+h1 {
+    font-size:2.5rem;
+    margin:1rem 0;
+}
+
+a {
+    color:#4F3FBF;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#9F2F9F;
+}
+
+figure {
+    margin:0;
+}
+
+* {
+    box-sizing:border-box;
+}
+
+.center {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}

@@ -114,7 +114,7 @@ sudo system76-firmware # So you can tell if you have new firmware
 
 This is how the firmware UI tool looks like:
 
-<img class="center" src="/assets/firmware.png" />
+<img class="center" src="/assets/images/firmware.png" />
 
 ## system76-power (aur)
 
