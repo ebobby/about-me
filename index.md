@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Francisco Soto
+title: Francisco "Bobby" Soto
 ---
 
 Curious lifelong learner. I take pleasure in figuring things out and deeply
