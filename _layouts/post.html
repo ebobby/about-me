@@ -1,10 +1,12 @@
 ---
 layout: default
 ---
-
 <article class="post">
   <p>
     <strong><em>{{ page.date | date_to_string }}</em></strong>
   </p>
   {{content}}
 </article>
+<small>
+  <a href="javascript:history.back()">back</a>
+</small>
