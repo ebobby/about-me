@@ -4,21 +4,27 @@
   <body>
     <h1>
       {% if page.title %}
-        {{page.title}}
+      {{page.title}}
       {% else %}
-         Blog
+      Blog
       {% endif %}
     </h1>
 
-    <a href="/blog">blog</a> |
-    <a target="_blank" href="https://github.com/ebobby">github</a> |
-    <a target="_blank" href="https://www.linkedin.com/in/franciscomsoto/">linkedin</a> |
-    <a target="_blank" href="/resume.pdf">resume</a> |
-    <a href="/readme">my readme</a> |
-	  <a href="/">about</a>
+    <nav>
+      <div>
+	      <a href="/">home</a> |
+        <a href="/blog">blog</a> |
+        <a target="_blank" href="/resume.pdf">resume</a>
+      </div>
+      <div>
+        <a target="_blank" href="https://github.com/ebobby">github</a> |
+        <a target="_blank" href="https://www.linkedin.com/in/franciscomsoto/">linkedin</a> |
+        <a href="/readme">my readme</a>
+      </div>
+    </nav>
 
-    <p />
-
-    {{ content }}
+    <main class="content">
+      {{ content }}
+    </main>
   </body>
 </html>
