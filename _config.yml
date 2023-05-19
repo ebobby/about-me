@@ -10,5 +10,10 @@ favicon_location: favicon.png
 
 permalink: /:year/:month/:day/:title/
 
+collections:
+  poems:
+    output: true
+    permalink: /:collection/:name
+
 plugins:
   - jekyll-feed

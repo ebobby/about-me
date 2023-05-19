@@ -1,0 +1,15 @@
+---
+layout: default
+title: Poetry
+---
+{% assign groups = site.poems | group_by: 'category' %}
+{% for group in groups %}
+  <h3>{{ group.name | capitalize }}</h3>
+  <ul>
+  {% for poem in group.items %}
+    <li>
+      <a href="{{ poem.url }}">{{ poem.title }}</a>&nbsp;
+    </li>
+  {% endfor %}
+  </ul>
+{% endfor %}

@@ -125,6 +125,17 @@ nav {
     justify-content:space-between;
 }
 
+small {
+    font-size: 0.7em;
+}
+
+.poem {
+    padding: 0.85em 0;
+}
+
+.poem p {
+    white-space:pre;
+}
 
 * {
     box-sizing:border-box;
