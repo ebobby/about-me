@@ -119,7 +119,7 @@ Here's the code to find the neighbors of a word in our dictionary in Lisp:
 <dl>
 <dt>one-apart-p</dt>
 <dd>
-It's a predicate, that is, it returns true or false. It is a convention in Common Lisp to suffix predicate functions with _-p_. What it does is that given two words, it loops across them counting how many differences they have. If they have only one difference it returns true, else false.
+It's a predicate, that is, it returns true or false. It is a convention in Common Lisp to suffix predicate functions with <em>-p</em>. What it does is that given two words, it loops across them counting how many differences they have. If they have only one difference it returns true, else false.
 </dd>
 <br />
 <dt>find-neighbors</dt>

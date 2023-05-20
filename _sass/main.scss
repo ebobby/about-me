@@ -97,6 +97,13 @@ body {
     width:100%;
 }
 
+nav {
+}
+
+main {
+    padding-top: 30px;
+}
+
 h1 {
     font-size:2.5rem;
     margin:1rem 0;
@@ -107,8 +114,12 @@ a {
     text-decoration:none;
 }
 
-a:hover {
+a:hover, a:hover:visited {
     color:#9F2F9F;
+}
+
+a:visited {
+    color:#2F9F2F;
 }
 
 figure {
@@ -120,14 +131,14 @@ code {
     font-size: 0.95em;
 }
 
-nav {
-    display:flex;
-    justify-content:space-between;
-}
-
 small {
     font-size: 0.8em;
 }
+
+sub {
+    font-size: 0.65em;
+}
+
 
 .poem {
     padding: 0.85em 0;
