@@ -1,0 +1,541 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	<title>Francisco &quot;Bobby&quot; Soto  - Software Engineer</title>
+	<style>
+  	:root {
+  --accent:#BC1B39;
+  --anchor-color: #2C85B1;
+  --blue:#2C85B1;
+  --copy-color-light: #666666;
+  --copy-color: #242424;
+  --grey:#999999;
+  --light-grey:#ededed;
+  --white:#FFFFFF;
+  --base-font-size: 13pt;
+  --spacing-double: 1rem;
+  --spacing-small: .1rem;
+  --spacing: .5rem;
+}
+@media (min-width: 567px) {
+  :root {
+    --spacing-double: 1.5rem;
+    --spacing-small: .25rem;
+    --spacing: .75rem;
+  }
+}
+@media print {
+  :root {
+    --anchor-color: #000000;
+    --base-font-size: 9pt;
+    --copy-color-light: #000000;
+    --copy-color: #000000;
+  }
+}
+
+body {
+  color: var(--copy-color);
+  display: flex;
+  font: var(--base-font-size) "Figtree", Helvetica, Arial, sans-serif;
+  justify-content: center;
+  line-height: 1.25;
+  -webkit-print-color-adjust: exact;
+}
+
+em {
+  color: var(--grey);
+}
+
+p {
+  font-size: 90%;
+}
+
+a {
+  color: var(--anchor-color);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+section {
+  margin: var(--spacing) 0 var(--spacing-double);
+}
+
+blockquote {
+  margin-bottom: 0 0 var(--spacing);
+}
+
+#resume {
+  background: var(--white);
+  margin: var(--spacing) var(--spacing-double);
+  max-width: 760px;
+}
+
+section.heading header h1 {
+  font-size: 180%;
+  font-weight: 300;
+  margin: 0;
+}
+section.heading header h2 {
+  font-size: 140%;
+  font-weight: 400;
+  margin: 0;
+}
+section.heading header h2::after {
+  display: none;
+}
+section.heading header .contact {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: var(--spacing);
+}
+@media (min-width: 567px) {
+  section.heading header .contact {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+section.heading header address {
+  font-size: 90%;
+  font-style: normal;
+  padding-bottom: var(--spacing);
+}
+section.heading .profiles {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: var(--spacing);
+}
+@media (min-width: 567px) {
+  section.heading .profiles {
+    flex-direction: row;
+    justify-content: start;
+  }
+}
+section.heading .profiles .profile.print {
+  display: none;
+}
+@media print {
+  section.heading .profiles .profile.print {
+    display: inline;
+  }
+}
+section.heading .profiles strong {
+  margin: 0 var(--spacing-small) 0 0;
+}
+section.heading .profiles span {
+  margin: 0 var(--spacing-double) 0 0;
+}
+
+section.experience .item {
+  border-bottom: 1px solid var(--light-grey);
+  margin: 0 0 0.5em;
+  padding: 0 0 0.5em;
+}
+section.experience .item:last-child {
+  border-bottom: none;
+}
+section.experience .item header a,
+section.experience .item header h3 {
+  color: var(--copy-color);
+  display: inline-block;
+  font-weight: 400;
+  text-decoration: none;
+}
+@media (max-width: 566px) {
+  section.experience .item header .subhead {
+    flex-direction: column;
+    margin-bottom: var(--spacing-double);
+  }
+}
+section.experience .item .summary p {
+  margin-top: var(--spacing);
+}
+section.experience .item .summary p:first-child {
+  margin-top: var(--spacing-small);
+}
+section.experience .item .summary p:last-child {
+  margin-bottom: var(--spacing-small);
+}
+section.experience .item .position {
+  color: var(--copy-color-light);
+  font-size: 100%;
+  font-weight: 500;
+  margin: var(--spacing-small) 0;
+}
+section.experience .item .startDate,
+section.experience .item .endDate {
+  color: var(--grey);
+}
+section.skills .item {
+  margin: 0;
+  padding: 0 0 var(--spacing);
+}
+section.skills .item:first-child {
+  margin-top: var(--spacing);
+}
+section.skills .item:last-child {
+  margin-bottom: var(--spacing);
+}
+section.skills .item .name {
+  display: inline-block;
+  font-size: 90%;
+  font-weight: 600;
+  margin: 0 var(--spacing) 0 0;
+  text-transform: uppercase;
+  vertical-align: top;
+  white-space: nowrap;
+}
+section.skills .item .keywords {
+  display: inline-block;
+  font-size: 90%;
+  vertical-align: top;
+}
+
+section.volunteering .item .position {
+  font-weight: 600;
+}
+section.volunteering .item header .subhead {
+  margin-top: var(--spacing);
+}
+section.projects .item strong {
+  color: var(--copy-color-light);
+  font-weight: 600;
+  display: inline-block;
+  padding-top: var(--spacing);
+}
+section.awards .item .title {
+  font-weight: 600;
+}
+section.publications .item .name {
+  font-weight: 600;
+}
+section.languages .language-item {
+  align-items: baseline;
+  display: flex;
+  justify-content: start;
+}
+section.languages .language-item:first-child {
+  margin-top: var(--spacing);
+}
+section.languages .language-item:last-child {
+  margin-bottom: var(--spacing);
+}
+section.languages .language-item .language {
+  display: inline-block;
+  font-size: 90%;
+  font-weight: 600;
+  margin: 0 var(--spacing) 0 0;
+  text-transform: uppercase;
+  vertical-align: top;
+  white-space: nowrap;
+}
+section.languages .language-item .fluency {
+  color: var(--copy-color-light);
+  font-style: italic;
+}
+
+section.interests .item {
+  margin-bottom: var(--spacing);
+}
+section.interests .item:last-child {
+  margin-bottom: var(--spacing);
+}
+section.interests .item .name {
+  display: inline-block;
+  font-size: 90%;
+  font-weight: 600;
+  margin: 0 var(--spacing) 0 0;
+  text-transform: uppercase;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+section.references .item blockquote {
+  font-style: italic;
+  margin-bottom: 0;
+  margin-left: var(--spacing);
+}
+section.references .item .name {
+  color: var(--copy-color-light);
+}
+
+section h2 {
+  color: var(--accent);
+  font-size: 135%;
+  font-weight: 400;
+  margin: 0 0 var(--spacing-double);
+  position: relative;
+  text-transform: uppercase;
+}
+section h2::after {
+  background: var(--accent);
+  bottom: -10px;
+  content: " ";
+  display: inline-block;
+  height: 3px;
+  left: 0;
+  position: absolute;
+  width: 2.5rem;
+}
+section header h3 {
+  margin: 0;
+  font-weight: 600;
+}
+
+section.experience .item .highlights, section.volunteering .highlights, section.projects .highlights,
+section.projects .keywords,
+section.projects .roles, section.education .item .courses {
+  font-size: 90%;
+  line-height: 1.3;
+  list-style: square;
+  margin: var(--spacing-small) 0 var(--spacing);
+  padding-left: var(--spacing-double);
+}
+
+section .summary {
+    margin-bottom: 1em;
+}
+
+section.experience .item, section.volunteering .item, section.projects .item, section.education .item, section.awards .item, section.publications .item, section.interests .item, section.references .item {
+  page-break-inside: avoid;
+}
+
+@media print {
+  section.heading .profiles .profile:not(.print), section.publications .item .website {
+    display: none;
+  }
+}
+
+section.experience .item header .subhead, section.volunteering .item header .subhead, section.projects .item header, section.education .item header, section.awards .item header, section.publications .item .subhead {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 567px) {
+  section.experience .item header .subhead, section.volunteering .item header .subhead, section.projects .item header, section.education .item header, section.awards .item header, section.publications .item .subhead {
+    flex-direction: row;
+  }
+}
+
+@media print {
+  body {
+    font-size: 11pt;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+	</style>
+	<style media="print">
+		body { font-size: 12px; }
+	</style>
+
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+	</head>
+  <body>
+    <div id="resume">
+      <section id="heading" class="heading">
+        <header>
+          <img src="/assets/images/me.jpg" width="100px" height="100px" style="float:left; border-radius: 25px; border: 1px solid black; margin-right: 10px"/>
+          <h1>
+            Francisco &quot;Bobby&quot; Soto
+          </h1>
+          <h2>Software Engineer</h2>
+          <div class="summary"><p>Seeking an engineering lead role. Experienced in building a wide variety of software products in fast-paced environments on domains like B2B SaaS, EdTech, FinTech, and HealthTech. Deep technical knowledge ranging from architecture to implementation and demonstrated ability to lead and guide teams. I have a bias for action and <strong>getting things done</strong>.</p></div>
+          <div class="contact">
+            <span class="contact-detail"><a href="mailto:ebobby@ebobby.org">ebobby@ebobby.org</a></span>
+            <span class="contact-detail"><a href="https://ebobby.org" target="external">https://ebobby.org</a></span>
+          </div>
+          <address>
+            <span class="address-detail">Hermosillo,</span>
+            <span class="address-detail">Sonora,</span>
+            <span class="address-detail">Mexico</span>
+          </address>
+        </header>
+
+        <div class="profiles">
+          <div class="profile">
+            <strong class="network">Github</strong>
+            <span class="username">
+              <a href="https://github.com/ebobby" target="external">@ebobby</a>
+            </span>
+          </div>
+          <div class="profile print">
+            <span class="username">
+              https://github.com/ebobby
+            </span>
+          </div>
+          <div class="profile">
+            <strong class="network">LinkedIn</strong>
+            <span class="username">
+              <a href="https://www.linkedin.com/in/franciscomsoto/" target="external">@franciscomsoto</a>
+            </span>
+          </div>
+          <div class="profile print">
+            <span class="username">
+              https://www.linkedin.com/in/franciscomsoto/
+            </span>
+          </div>
+        </div>
+      </section>
+      <section id="experience" class="experience">
+        <section class="item">
+          <h2>Experience</h2>
+          <header>
+            <h3 class="name"><a href="https://www.aspire.io/" target="external">Aspire</a></h3>
+            <div class="subhead">
+            <span class="position">Staff Software Engineer</span>
+            <small class="dates">Jan 2022
+             - Mar 2023</small>
+            </div>
+          </header>
+          <div class="summary"><p>Aspire is a robust marketing platform that helps ecommerce brands build     influential creator communities and manage marketing campaigns. As a Staff     Engineer, I joined a ~35 engineer team with a mission to execute the company's technical vision, mentor engineers, and lead cross-team projects.</p></div>
+          <ul class="highlights">
+            <li>I developed and integrated the first version of our creator platform with Instagram Creator Marketplace. This enabled our users to use Instagram Direct Messaging for campaign communications, streamlining the  process. The project was developed in collaboration with Meta, providing  Aspire with strategic access to exclusive features and data on Instagram creators.</li>
+            <li>I led the implementation of back-end services testing, setting up CI/CD support core libraries, scaffolding, and configuration. I performed demos, provided code examples, and one-on-one mentoring. The initiative resulted in a decrease in bug reports and severity of issues, minimized product downtime, and increased development velocity.</li>
+            <li><strong>Python, Typescript, GCP, PostgreSQL, Kubernetes, Redis</strong></li>
+          </ul>
+        </section>
+        <section class="item">
+          <header>
+            <h3 class="name"><a href="https://dumpling.us/" target="external">Dumpling</a></h3>
+            <div class="subhead">
+            <span class="position">Senior Software Engineer</span>
+            <small class="dates">Nov 2020
+             - Dec 2021</small>
+            </div>
+          </header>
+          <div class="summary"><p>Dumpling is a platform that provides tools to help individuals start, run, and grow their local shopping and delivery businesses. As an early stage team member I took charge of improving the shopping product database.</p></div>
+          <ul class="highlights">
+            <li>Developed internal tools for managing the store and product catalog, as well as related features. These tools were instrumental in reducing the turnaround time needed to resolve data quality issues, resulting in a more efficient and streamlined process.</li>
+            <li>Designed and implemented a search-based recommendations engine. By delivering relevant results to new buyers, we were able to improve engagement metrics and significantly reduce the churn rate.</li>
+            <li><strong>Python, Javascript, AWS, Serverless, Elasticsearch, DynamoDB</strong></li>
+          </ul>
+        </section>
+        <section class="item">
+          <header>
+            <h3 class="name"><a href="https://www.homeroom.com/" target="external">Homeroom</a></h3>
+            <div class="subhead">
+            <span class="position">Tech Lead</span>
+            <small class="dates">Mar 2019
+             - Sep 2020</small>
+            </div>
+          </header>
+          <div class="summary"><p>Homeroom is an all-in-one platform to set-up, manage and shop for enrichment activities after school. Joined as an engineer and tech lead to scale the current platform and build new features.</p></div>
+          <ul class="highlights">
+            <li>By redesigning the locking strategy and fine-tuning the production environment, I was able to optimize backend performance by 300% during peak load. This resulted in increased sales and a 50% reduction in infrastructure costs.</li>
+            <li>I developed a command-line tool that enabled the creation and deployment of isolated testing environments. By testing each feature individually rather than all at once, this streamlined our process, minimized conflicts, and increased our development velocity.</li>
+            <li>As a mentor, I provided guidance to team members, conducted thorough code reviews, and offered support with architecture and system design. Fostered a culture of collaboration and continuous improvement within the team.</li>
+            <li><strong>Ruby, Rails, Javascript, PostgreSQL, Redis</strong></li>
+          </ul>
+        </section>
+        <section class="item">
+          <header>
+            <h3 class="name"><a href="https://carezone.com/" target="external">Carezone</a></h3>
+            <div class="subhead">
+            <span class="position">Senior Software Engineer / Tech Lead</span>
+            <small class="dates">Jul 2015
+             - Dec 2018</small>
+            </div>
+          </header>
+          <div class="summary"><p>CareZone was a consumer healthcare startup that simplified medication and health information management, offering additional services like pharmacy and insurance support.</p></div>
+          <ul class="highlights">
+            <li>Designed and implemented a comprehensive data synchronization scheme that is utilized across all Carezone systems. This includes the API that serves our mobile applications, pharmacy, insurance, and e-commerce platforms.</li>
+            <li>Improved application performance by identifying and addressing performance bottlenecks, optimizing database queries and indexing. This improved application response times by 25%.</li>
+            <li>As a technical lead, I provided guidance for team members, organized internal tech talks, and led small teams.</li>
+            <li><strong>Ruby, Rails, Javascript, PostgreSQL, Go</strong></li>
+          </ul>
+        </section>
+        <section class="item">
+          <header>
+            <h3 class="name">Chopeo</h3>
+            <div class="subhead">
+            <span class="position">Founder</span>
+            <small class="dates">Apr 2014
+             - May 2015</small>
+            </div>
+          </header>
+          <div class="summary"><p>I co-founded Chopeo, a DIY ecommerce platform for Latin America, offering order management, payments, and shipping integration.</p></div>
+          <ul class="highlights">
+            <li>Co-founded company, made key hires, managed the technical team, secured angel investment, and established strategic partnerships. </li>
+            <li>I developed the backend for our main product, a multi-tenant e-commerce service that supported over 250 micro-businesses, generating over $2.5M MXN in sales during the first year.</li>
+            <li>Company got acquired by Dub5 in May, 2015.</li>
+            <li><strong>Ruby, Rails, Javascript, PostgreSQL</strong></li>
+          </ul>
+        </section>
+        <section class="item">
+          <header>
+            <h3 class="name"><a href="https://spire.com/" target="external">Spire Global</a></h3>
+            <div class="subhead">
+            <span class="position">Spacecraft Software Engineer</span>
+            <small class="dates">Aug 2013
+             - Nov 2013</small>
+            </div>
+          </header>
+          <div class="summary"><p>Spire Global operates the largest multipurpose constellation of satellites, offering advanced space-to-cloud analytics for maritime, aviation, and weather tracking.</p></div>
+          <ul class="highlights">
+            <li>I developed Ardusat2&#x27;s ground-to-satellite radio module firmware within four months, contributing to a record-breaking design-to-implementation timeline for the satellite project.</li>
+            <li><strong>C, FreeRTOS, Embedded Linux, GNURadio</strong></li>
+          </ul>
+        </section>
+        <section class="item">
+          <header>
+            <h3 class="name"><a href="https://www.expensify.com/" target="external">Expensify</a></h3>
+            <div class="subhead">
+            <span class="position">Senior Software Engineer</span>
+            <small class="dates">Feb 2013
+             - Jun 2013</small>
+            </div>
+          </header>
+          <ul class="highlights">
+            <li>Implemented new features and bank integrations, expanding the customer base.</li>
+            <li>Led SQL training for marketing and sales, resulting in improved targeted ad campaigns.</li>
+            <li>Optimized database queries to meet strict SLAs through careful application profiling.</li>
+          </ul>
+        </section>
+        <section class="item">
+          <header>
+            <h3 class="name"><a href="https://www.ingrooves.com/" target="external">INgrooves</a></h3>
+            <div class="subhead">
+            <span class="position">Engineering Manager</span>
+            <small class="dates">Apr 2009
+             - Dec 2012</small>
+            </div>
+          </header>
+          <div class="summary"><p>INgrooves empowers music labels and entrepreneurs to grow their businesses through distribution, marketing, analytics, rights management, royalty accounting, and licensing solutions.</p></div>
+          <ul class="highlights">
+            <li>Led technical teams on major company-wide projects.</li>
+            <li>Bootstrapped INscribe Digital, an ebook distribution platform, generating a new revenue stream.</li>
+            <li>Designed enterprise-level system for album ingestion, facilitating distribution of valuable musical properties.</li>
+          </ul>
+        </section>
+      </section>
+      <section id="skills" class="skills">
+        <div class="item">
+          <h2>Skills</h2>
+          <div class="name">Software Engineering</div>
+          <div class="keywords">
+            Backend,
+            Linux,
+            Cloud,
+            SQL,
+            Redis,
+            Rust,
+            Lisp,
+            Python,
+            Ruby,
+            Go,
+            C,
+            PostgreSQL
+          </div>
+        </div>
+      </section>
+    </div>
+	</body>
+</html>
