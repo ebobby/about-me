@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Francisco "Bobby" Soto
+title: Francisco 'Bobby' Soto
 desc: Passionate lifelong learner and startup enthusiast skilled in product development, personal projects, blogging, and open-source contributions.
 keywords: francisco soto, life long learner, personal projects, blogging, poetry, computer programmer, open source contribution, about page
 ---
