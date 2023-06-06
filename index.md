@@ -5,14 +5,14 @@ desc: Passionate lifelong learner and startup enthusiast skilled in product deve
 keywords: francisco soto, life long learner, personal projects, blogging, poetry, computer programmer, open source contribution, about page
 ---
 
-Curious lifelong learner. I take pleasure in figuring things out and deeply
-understanding them. I have a bias for action and **getting things done**.
+Curious lifelong learner. I love figuring things out and understanding them deeply. I have a bias for action and **getting things done**.
 
 I help startups build their ideas into products.
 
 I build some of my own:
 
-- <a target="_blank" href="https://web.archive.org/web/20141219064754/https://www.chopeo.mx/">Chopeo</a> <sub>(Acquired in 2015)</sub>
+- <a href="#" onclick="return false;">Pick Your Photos</a> <small>(in progress)</small>
+- <a target="_blank" href="https://web.archive.org/web/20141219064754/https://www.chopeo.mx/">Chopeo</a> <small>(acquired in 2015)</small>
 
 I write in my [blog](/blog) and some [poetry](/poetry).
 
