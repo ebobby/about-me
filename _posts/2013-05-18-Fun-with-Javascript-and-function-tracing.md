@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Fun with Javascript and function tracing
-date:  2013-05-18
-tags: [programming]
+desc: The creation of Tracing.js, a JavaScript library to hook functions, offering a smart way to debug web applications.
+keywords: debugging, tracing, common lisp, javascript, tracing.js library, aspect-oriented programming
+date: 2013-05-18
 ---
 
 <img style="float: right" src="/assets/images/bigbug.jpg" />

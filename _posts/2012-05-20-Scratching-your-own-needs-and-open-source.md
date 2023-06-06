@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Scratching your own needs and open source
-date:  2012-05-20
-tags: [tech]
+desc: The process of participating in the development of FreeBSD by providing code, bug reports, or other assistance.
+keywords: open source contribution, freebsd ports, mesa 3d, port maintainer
+date: 2012-05-20
 ---
 
 <img style="float: left" src="/assets/images/beanie.png" />

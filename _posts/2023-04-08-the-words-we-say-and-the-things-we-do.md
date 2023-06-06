@@ -1,7 +1,9 @@
 ---
 layout: post
 title: The words we say and the things we do...
-date:   2023-04-28
+desc: Explore the story of my high school nickname evolving into a lifelong identity, highlighting the power of words and the lasting impact of our actions on others.
+keywords: power of words, lasting impact, personal identity, positive impact
+date: 2023-04-28
 ---
 
 When we interact with people that are close to us, emotionally or physically, we

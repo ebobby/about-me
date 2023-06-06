@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Keeping an eye on efficiency
-date:  2012-07-14
-tags: [programming]
+desc: This post addresses the importance of understanding and utilizing efficient coding practices, detailing the potential cost of inefficient programming.
+keywords: efficiency in software development, optimization techniques, performance profiling, data structures and algorithms
+date: 2012-07-14
 ---
 
 <img style="float: right" src="/assets/images/big-o.png" />

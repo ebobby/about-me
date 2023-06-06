@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Improving Linux battery life and thermal efficiency
-date:  2018-09-01
-tags: [linux]
+desc: Exploring the measures taken to enhance the battery performance of a Linux-based laptop, offering a reference guide for others in a similar situation.
+keywords: improve laptop battery life, linux power savings configuration, linux advanced power management
+date: 2018-09-01
 ---
 
 I recently switched from MacOS to Linux for my personal/work machine. As much as

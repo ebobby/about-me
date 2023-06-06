@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Using sets for many-to-many relationships
-date:  2012-11-11
-tags: [databases,optimization]
+desc: Detailed explanation on the concept of many-to-many relationships in data modeling and using sets as an optimization technique.
+keywords: many-to-many relationships, data modeling, join tables, sets, optimization,
+date: 2012-11-11
 ---
 
 ### What’s a many-to-many?

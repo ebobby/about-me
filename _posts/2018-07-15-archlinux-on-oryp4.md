@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Installing Archlinux on System76's 2018 Oryx Pro (oryp4)
-date:  2018-07-15
-tags: [linux]
+desc: This post provides a comprehensive guide to setting up and managing a System76 Oryx Pro running Archlinux, with detailed instructions for managing GPU settings for optimized power use.
+keywords: system76 oryx pro, archlinux on system76, discrete graphics card, nvidia
+date: 2018-07-15
 ---
 
 I recently decided to move from OSX to Linux and settled on a System76 new Oryx

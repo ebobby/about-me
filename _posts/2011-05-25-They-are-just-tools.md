@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "They are just tools"
-subtitle: Stop the flamewars...
-date:  2011-05-25
-tags: [tech]
+title: They are just tools
+desc: The necessity for tech professionals to learn and adapt to a variety of tools, widening their skill set to provide effective solutions for diverse problems.
+keywords: technology debates, expanding tool set, technology perspective, professionals
+date: 2011-05-25
 ---
 <em>This post was originally written by me for a former employer’s
 [blog][nearsoft-blog], I reproduced here with some minor

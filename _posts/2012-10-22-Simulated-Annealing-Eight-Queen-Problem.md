@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Simulated Annealing and the 8-Queen Problem
-date:  2012-10-22
-tags: [programming]
+desc:  A comprehensive guide on the Simulated Annealing Algorithm, a meta-heuristic technique that seeks an optimal solution by iteratively improving upon a random solution. With a Javascript implementation.
+keywords: combinatorial optimization, simulated annealing algorithm, javascript, optimization algorithms, advanced javascript algorithms
+date: 2012-10-22
 ---
 {% include jsqueens.html %}
 

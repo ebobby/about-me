@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "HOWTO: Use Oryx Pro's discrete GPU in Archlinux"
-date:  2018-08-06
-tags: [linux]
+desc: This post provides a step-by-step guide to configure System76's Oryx Pro for optimal GPU utilization and external monitor setup using Nvidia drivers and PRIME on Archlinux.
+keywords: system76 oryx pro, discrete gpu, nvidia drivers, bumblebee, prime, archlinux
+date: 2018-08-06
 ---
 
 _Although this has only been tested in [System76's Oryx Pro][oryp4] I suppose it

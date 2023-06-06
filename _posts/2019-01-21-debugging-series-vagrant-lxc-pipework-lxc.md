@@ -1,9 +1,9 @@
 ---
 layout: post
 title: vagrant-lxc / pipework / lxc
-subtitle: Debugging Series
-date:  2019-01-21
-tags: [debugging]
+desc: Real Life Debugging Examples - Practical and real-world cases that demonstrate the process of identifying and resolving software issues.
+keywords: debugging techniques, real life debugging examples, vagrant, lxc
+date: 2019-01-21
 ---
 I personally consider "debugging" (figuring out how something works and how is
 it broken) a very important skill as a software developer and one that I don't

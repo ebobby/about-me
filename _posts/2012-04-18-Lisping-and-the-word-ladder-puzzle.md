@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Lisping and the word ladder puzzle"
-date:  2012-04-18
-tags: [programming]
+title: Lisping and the word ladder puzzle
+desc: Solving Word Ladder in Lisp. A fascinating journey of implementing a breadth-first solver for the word ladder puzzle using Common Lisp, a classic example of functional programming.
+keywords: lisp, word ladder puzzle, coding puzzles, breadth-first graph traversal, depth-first graph traversal
+date: 2012-04-18
 ---
 
 <img style="float: right" src="/assets/images/lisplogo_warning_256.png" />
