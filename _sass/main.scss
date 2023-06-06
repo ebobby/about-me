@@ -82,8 +82,8 @@
 }
 
 html {
-    background-color: #f9f5fb;
-    color: #312f31;
+    background-color: #fafafa;
+    color: #1f2937;
     font-family:'Figtree';
     font-size: 19px;
     font-weight: 400;
@@ -110,16 +110,13 @@ h1 {
 }
 
 a {
-    color:#4F3FBF;
+    color:#be123c;
     text-decoration:none;
 }
 
 a:hover, a:hover:visited {
-    color:#9F2F9F;
-}
-
-a:visited {
-    color:#2F9F2F;
+    color:#f43f5e;
+    font-weight: 600;
 }
 
 figure {
