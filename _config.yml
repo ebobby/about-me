@@ -6,7 +6,7 @@ url: "https://ebobby.org"
 footer_only_homepage: true
 
 profile-picture: assets/images/me.jpg
-favicon_location: favicon.png
+favicon_location: favicon.ico
 
 permalink: /:year/:month/:day/:title/
 
