@@ -13,9 +13,9 @@ a company. Fueled by the myth of the software companies of the 80s and 90s I
 dreamed of being the next Microsoft or ID Software. A bunch of smart hackers
 building something massive and then riding off into the sunset on red Ferraris.
 
-Being a penniless Mexican kid though, very far from Silicon Valley, made this
-dream a bit too far to reach. When I got out of school I realized that having no
-money and zero connections would a rough start, so I joined the work force as a
+Being a penniless Mexican kid though, far from Silicon Valley, made this dream a
+bit too far to reach. When I got out of school I realized that having no money
+and zero connections would be a rough start, so I joined the work force as a
 programmer, it seemed that learning about how businesses worked from the inside,
 while making money, was the only path to follow.
 
@@ -25,8 +25,8 @@ Fast forward a few years and I was living in San Francisco and working for a coo
 startup, but, I had the nagging thought in the back of my head about starting
 and building something up.
 
-So, I decided to do something. I quit my job, and in what could be considered a
-weird move, I came back to Mexico to start something up.
+So, I decided to do something. I quit my job, and in what was a weird move, I
+came back to Mexico to start something up.
 
 My first thought was to do something on my own, I had savings and could work on
 my own for a while. I wanted to build a small product that I could build and
@@ -40,19 +40,18 @@ investment and as a part of a larger group of companies (not tech).
 
 We built [Chopeo][chopeo]. A build-your-own-ecommerce application tailored for
 the Mexican market. At the time Shopify was making a big deal of entering the
-Mexico, and there were other larger incumbents, like Kichink, but we thought we
-could carve a decent niche for ourselves, sadly though, small niches aren't that
-great when you have investment pressure.
+Mexican market, and there were other larger incumbents, like Kichink, but we
+thought we could carve a decent niche for ourselves, sadly though, small niches
+aren't that great when you have investment pressure.
 
 We probably made every mistake in the book. Not validating the market, not
 setting up good channels for customer feedback, we didn't try multiple marketing
 channels and focused in the ones we knew and we probably did it wrong.
 
-But, I enjoyed the experience a lot. We built something that a _few_ users
-loved. I did a lot of customer support because I enjoyed connecting with our
-users and watching their reactions when a bug they reported or a feature they
-asked for was released just a few hours later (sometimes in minutes!). It was
-just magical.
+But, I enjoyed the experience a lot. We built something that users loved. I did
+a lot of customer support because I enjoyed connecting with our users. I loved
+watching their reactions when we fixed a bug they reported, or when we released
+a feature they asked for hours later (sometimes minutes!). It was just magical.
 
 But, alas, we failed. We closed down.
 
@@ -64,10 +63,10 @@ it for a "whooping" 120K USD.
 
 A couple of years later a friend came to my house and said something to the
 lines of "let's open a bar". At the time I was deep in the culture of craft beer
-and food, and even though I knew it is a very difficult business and we would
+and food, and even though I knew it is a difficult business and we would
 probably fail, I said yes.
 
-So we opened [Kraken Gastropub][kraken]. We had a very clear vision of what we
+So we opened [Kraken Gastropub][kraken]. We had a clear vision of what we
 wanted. The type of place we loved to eat, drink and could only find while
 traveling. A place with bar food (burger, hotdog) but, high quality. A great
 lineup of craft beers. Music to our taste. People left sometimes because they
@@ -82,12 +81,12 @@ people with different taste would hate it).
 
 We made many, many mistakes as well. Our location was bad, it had zero foot
 traffic. Most people that walked into our restaurant knew they were coming
-before they left their house. We had huge operating costs. Rent, premium
+before they left their house. We had large operating costs. Rent, premium
 ingredients, a large staff. We didn't know how to market it or where.
 
 But, after two grueling years we started seeing some black ink in our
 balances. Slowly but steadily we grew. Word of mouth was great. We had a lot of
-very loyal regulars. A lot of our customers would come with us when they had
+loyal regulars. A lot of our customers would come with us when they had
 important events, graduations, valentine's, etc.
 
 And then the COVID pandemic hit. And with the uncertainty of what would happen, how
@@ -98,8 +97,8 @@ And that was it.
 
 ## And now
 
-What would I do if I were handed 100M USD right now? That's a good thought
-exercise when trying to figure out what is it that you truly want to do.
+What would I do if I had 100M USD right now? That's a good thought exercise when
+trying to figure out what is it that you truly want to do.
 
 I've thought long and hard about what I would like to build and how. I really
 like developing products and have a close relationship with customers. I love
@@ -118,25 +117,23 @@ Did I vet the market? Build a few landing pages to decide which product to build
 Did I interview many potential users? (this one I actually did, but low volume,
 just a few photographers I know, plus my wife). I did not.
 
-I know there is a market. But I don't know the size. There are a few other apps
-out there, I know a bunch of photographers (through my wife) and to be honest, I
-don't intend to build a huge company. If I get enough users to make this worth
-it to keep working on and build something good, I'm down.
+I know there is a market. But I don't know the size. There are some competitors
+out there. I know a bunch of photographers (through my wife). And to be honest I
+don't intend to build a big company. If I get enough users to make it worth
+working on and build something good, I'm down.
 
 I am also taking the opportunity to build it entirely on my own so I can
 exercise some of my weak skills, like HTML and CSS. Also I am using this to
 play with some technologies I wanted to play with (HTML over the wire).
 
 I am not trying to build a perfect product, but I am definitely paying a lot of
-attention to the quality. I am trying to keep it as small (in terms of features)
-as I can so I can build them to a standard that satisfies me.
+attention to quality. I am trying to keep it as small in terms of features
+as possible so I can build them to a standard that satisfies me.
 
-Doesn't that make it take more time? Yes it does. And, taking long to build
-something just to fail is the mistake we developers commit a lot. I understand
-all that.
+Doing that takes more time? Yes, it does. And, taking long to build something
+just to fail is the mistake we developers commit a lot. I understand all that.
 
-Will it fail? Probably. And, hopefully I will learn some lessons for the next
-time.
+Will it fail? Probably. Hopefully I will learn some lessons for the next time.
 
 ## About indie hacking
 
@@ -150,17 +147,16 @@ quicker you produce, the faster you'll hit your market.
 It makes sense, right? A lot of products fail not due to their quality, but
 because they couldn't find a market or because they couldn't reach that market.
 So, the more you produce in the shortest amount of time, the faster you find the
-one (or few) that will be successful.
+one that will be successful.
 
 But, when I think about that, you must have to make a lot of compromises, right?
 Like building your whole app in a [single file][onefile]. I don't think that's
-wrong at all, it suits their purposes and they are clearly doing great.
+wrong at all, it suits their purposes and they are evidently doing great.
 
 But I am not sure that fits my goals. In a hypothetical world if I build a
-product that actually has a modicum of success that let's me work on it full
-time I don't want to deal with something that. My "dream" would be to have a
-great base to keep building a great product. With attention to detail. A well
-crafted product.
+product that actually has a modicum of success I don't want to deal with
+something like that. My "dream" would be to have a great base to keep building a
+great product. With attention to detail. A well crafted product.
 
 The argument could be made that once you have a product with traction you can
 actually improve it and make it better. And it's a good point. But I really want
