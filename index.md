@@ -14,7 +14,7 @@ I build some of my own:
 - <a href="#" onclick="return false;">Pick Your Photos</a> <small>(in progress)</small>
 - <a target="_blank" href="https://web.archive.org/web/20141219064754/https://www.chopeo.mx/">Chopeo</a> <small>(acquired in 2015)</small>
 
-I write in my [blog](/blog) and some [poetry](/poetry).
+I write in my [blog](/blog).
 
 I make computers do fancy things:
 - <a target="_blank" href="https://github.com/ebobby/tracing.js">tracing.js</a>
