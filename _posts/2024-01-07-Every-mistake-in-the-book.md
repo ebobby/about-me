@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Every mistake in the book.
-desc: Oo
-keywords: oO
+desc: A developer shares their journey of building a photo gallery app for professional photographers, highlighting key lessons in software development, user engagement, and the balance between building and marketing.
+keywords: entrepreneurship, web application development, bootstrapped startup, indie hacker, build in public, entrepreneurial challenges
 date: 2024-01-07
 ---
 
