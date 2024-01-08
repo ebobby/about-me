@@ -6,7 +6,7 @@ keywords: entrepreneurship, web application development, bootstrapped startup, i
 date: 2024-01-07
 ---
 
-I started building *Pick Your Photos* since June last year. I didn't really
+I started building **Pick Your Photos** since June last year. I didn't really
 focus too much into it at the beginning, it was just a way to pass time and play
 with newer versions of Ruby on Rails.
 
