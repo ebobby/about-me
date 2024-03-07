@@ -9,7 +9,7 @@ Lifelong learner. I love figuring things out and understanding them deeply. I
 work with startups to build ideas into products. My approach is action-oriented,
 with a relentless focus on **turning ideas into reality**.
 
-I co founded <a target="_blank" href="https://web.archive.org/web/20141219064754/https://www.chopeo.mx/">Chopeo</a> <small>(acquired in 2015)</small>, opened up a gastropub <a target="_blank" href="https://www.instagram.com/krakenhmo">Kraken</a> and I am currently building **Pick Your Photos**.
+I co founded <a target="_blank" href="https://web.archive.org/web/20141219064754/https://www.chopeo.mx/">Chopeo</a> <small>(acquired in 2015)</small>, opened up a gastropub <a target="_blank" href="https://www.instagram.com/krakenhmo">Kraken</a> and I am currently building <a target="_blank" href="https://pickyour.photos">Pick Your Photos</a>.
 
 I like to make computers do fancy things: <a target="_blank" href="https://github.com/ebobby/tracing.js">tracing.js</a>, <a target="_blank" href="https://github.com/ebobby/simple-pathtracer">simple-pathtracer</a>, <a target="_blank" href="https://github.com/ebobby/has-many-with-set">has-many-with-set</a>, <a target="_blank" href="https://github.com/ebobby/simple-raytracer">simple-raytracer</a>, <a target="_blank" href="https://github.com/ebobby/simple-raytracer">simple-raytracer</a>.
 
