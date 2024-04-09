@@ -2,17 +2,16 @@ html {
     background-color: #fafafa;
     color: #1f2937;
     font-family: 'Rosario';
-    font-size: 20px;
-    line-height: 1.4;
+    font-size: 21px;
+    line-height: 32px;
 }
 
 body {
     margin: 0 auto;
     padding: 0;
-    max-width: 60ch;
+    max-width: 72ch;
     width: 100%;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 36px 18px;
 }
 
 main {
@@ -23,6 +22,12 @@ main {
 .content {
     margin-top: 1.5rem;
     padding-bottom: 4rem;
+}
+
+.blog-date {
+    color: #666666;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 footer {
@@ -40,26 +45,26 @@ footer {
 }
 
 h1 {
-    font-size:2.5rem;
-    margin:1rem 0;
-    font-weight: 900;
-    line-height: 1.2;
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin: 1rem 0;
 }
 
 h1.title {
     margin: 0;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.5rem;
 }
 
 h2 {
-    font-size:1.6rem;
-    line-height: 1.2;
+    font-size: 2.25rem;
+    line-height: 2rem;
     font-weight: 700;
 }
 
-
 a {
+    font-size: 1.125rem;
     color: #be123c;
     font-weight: 500;
     text-decoration: none;
@@ -87,7 +92,7 @@ figure.highlight {
 }
 
 small {
-    font-size: 0.75em;
+    font-size: 0.8em;
 }
 
 .poem p {
