@@ -14,7 +14,7 @@
        --accent:#BC1B39;
        --anchor-color: #2C85B1;
        --blue:#2C85B1;
-       --copy-color-light: #666666;
+       --copy-color-light: #888888;
        --copy-color: #242424;
        --grey:#999999;
        --light-grey:#ededed;
@@ -26,9 +26,9 @@
      }
      @media (min-width: 567px) {
        :root {
-         --spacing-double: 1.5rem;
-         --spacing-small: .25rem;
-         --spacing: .75rem;
+         --spacing-double: 2rem;
+         --spacing-small: .5rem;
+         --spacing: 1.5rem;
        }
      }
      @media print {
@@ -44,9 +44,10 @@
        text-rendering: optimizeLegibility;
        color: var(--copy-color);
        display: flex;
-       font: var(--base-font-size) "Figtree", Helvetica, Arial, sans-serif;
+       font: var(--base-font-size) "Lexend", sans-serif;
        justify-content: center;
        line-height: 1.25;
+       print-color-adjust: exact;
        -webkit-print-color-adjust: exact;
      }
 
@@ -162,6 +163,7 @@
      section.experience .item .summary p {
        margin-top: var(--spacing);
        text-align: justify;
+       color: #363636;
      }
      section.experience .item .summary p:first-child {
        margin-top: var(--spacing-small);
@@ -343,7 +345,7 @@
 		 body { font-size: 12px; }
 	  </style>
 
-    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
 	</head>
   <body>
     <div id="resume">
@@ -352,21 +354,18 @@
           <h1>
             Francisco Soto
           </h1>
-          <h2>Software Engineer / Entrepreneur </h2>
+          <h2>Builder / Entrepreneur </h2>
           <div class="summary">
             <p>
-              <strong>I am a senior leader and engineer with many years of experience in small to medium-sized startups. I have a bias for action and getting things done.</strong>
+              <strong>
+                Product minded builder and entrepeneur with loads of experience crafting products for small to medium sized startups.  I have a bias for action and getting things done.
+              </strong>
             </p>
           </div>
           <div class="contact">
             <span class="contact-detail">
               <a href="mailto:ebobby@ebobby.org">
                 ebobby@ebobby.org
-              </a>
-            </span>
-            <span class="contact-detail">
-              <a href="tel:+52 (662) 2573681">
-                +52 (662) 2573681
               </a>
             </span>
             <span class="contact-detail">
@@ -388,18 +387,21 @@
         </header>
       </section>
       <section id="experience" class="experience">
-        <h2>Experience</h2>
+        <h2>Built for others</h2>
         <section class="item">
           <header>
-            <h3 class="name"><a href="https://www.customer.io/" target="external">customer.io</a></h3>
+            <h3 class="name"><a href="https://www.customer.io/" target="external">Customer.io</a></h3>
             <div class="subhead">
               <span class="position">Senior Software Engineer</span>
-              <small class="dates">Jul 2023</small>
+              <small class="dates">Jul 2023 - Current</small>
             </div>
           </header>
           <div class="summary">
             <p>
-              As a senior engineer I helped get a modern content renderer completed with a 10x performance improvement over the previous renderer. I joined the engineering team for their newest product, a CDP platform, as a <strong>Go</strong> backend engineer in charge of improvinng performance and reliability.
+              I improved the performance and reliability of our data pipelines reverse ETL product. I took ownership of our data warehouse export integration, improved reliability, fixed many data integrity issues and <strong>brought error rate and customer support requests close to 0</strong>.
+            </p>
+            <p>
+              Developed a new content renderer for message templates. This new renderer offered <strong>10x performance improvement over the previous version</strong>, it also  was easier to extend and to maintain.
             </p>
           </div>
         </section>
@@ -413,7 +415,13 @@
           </header>
           <div class="summary">
             <p>
-              I developed and integrated a creator platform with Instagram's Creator Marketplace using a combination of <strong>Typescript</strong> and <strong>Python</strong>. I built the billing microservice responsible for metered usage and feature gates across different billing plans. Additionally, I served as a <strong>mentor</strong> and <strong>tech lead</strong>, owning an initiative that improved automated testing, which gradually reduced the number and severity of reported bugs.
+              I developed and integrated a creator platform with Instagram's Creator Marketplace.
+            </p>
+            <p>
+              I built the billing microservice responsible for metered usage and feature gating for different service plans.
+            </p>
+            <p>
+              Additionally, I served as a <strong>mentor</strong> and <strong>tech lead</strong>, owning an initiative that improved automated testing, which gradually reduced the number and severity of reported bugs.
             </p>
           </div>
         </section>
@@ -427,7 +435,10 @@
           </header>
           <div class="summary">
             <p>
-              I implemented a search-relevance engine for a product catalog using <strong>Python</strong>, <strong>AWS Lambda</strong>, <strong>AWS TimeStream</strong> and <strong>ElasticSearch</strong>. I also developed internal tools to manage store product catalogs, categories, and search relevance engines.
+              I implemented a <strong>search-relevance engine</strong> for our product database.
+            </p>
+            <p>
+              I also developed internal tools to manage store product catalogs, categories, and search relevance engines.
             </p>
           </div>
         </section>
@@ -441,7 +452,10 @@
           </header>
           <div class="summary">
             <p>
-              I joined as an early engineer and scaled the initial <strong>Ruby on Rails</strong> and <strong>React</strong> monolith to handle five times the traffic at half the infrastructure cost. I developed tooling to create developer environments and deploy isolated testing environments to staging, which doubled the time-to-market efficiency. As tech lead I fostered a culture of collaboration and continuous improvement within the team.
+              I scaled their initial monolith to handle <strong>10x times the traffic at half the infrastructure cost</strong>.
+            </p>
+            <p>
+              I developed tooling to manage developer environments and deploy to testing machines. The improved tooling <strong>doubled developer velocity</strong> increasing engineering throughput.
             </p>
           </div>
         </section>
@@ -455,7 +469,32 @@
           </header>
           <div class="summary">
             <p>
-              I designed and implemented a comprehensive data synchronization scheme that is utilized across all Carezone systems using <strong>Ruby On Rails</strong>, <strong>Go</strong> and <strong>PostgreSQL</strong>. I also addressed performance bottlenecks optimizing database queries and indexing improving application response times by 25%. As a <strong>technical lead</strong>, I provided guidance for team members, organized internal tech talks, and led small teams.
+              I implemented a <strong>data synchronization solution</strong> that was utilized across all Carezone systems.
+            </p>
+            <p>
+              I fixed performance bottlenecks by optimizing our database access <strong>improving application response times by 50%</strong>.
+            </p>
+          </div>
+        </section>
+        <section class="item">
+          <header>
+            <strong>Previous experiences available on Linkedin...</strong>
+          </header>
+        </section>
+      </section>
+      <section id="experience" class="experience">
+        <h2>Founded</h2>
+        <section class="item">
+          <header>
+            <h3 class="name"><a href="https://pickyour.photos/" target="external">Pick your Photos</a></h3>
+            <div class="subhead">
+              <span class="position">Founder</span>
+              <small class="dates">Feb 2024 - Current</small>
+            </div>
+          </header>
+          <div class="summary">
+            <p>
+              Client galleries for professional photographers. Photo session delivery, photo proofing, professional portfolio and client management.
             </p>
           </div>
         </section>
@@ -469,49 +508,10 @@
           </header>
           <div class="summary">
             <p>
-              I <strong>co-founded</strong> Chopeo: a DIY ecommerce platform for Latin America offering online ordering, inventory management, payments, and shipping integration. Company got <strong>acquired</strong> by Dub5, Inc in May, 2015.
+              DIY ecommerce platform for Latin America offering online ordering, inventory management, payments, and shipping integrations.
             </p>
-          </div>
-        </section>
-        <section class="item">
-          <header>
-            <h3 class="name"><a href="https://spire.com/" target="external">Spire Global</a></h3>
-            <div class="subhead">
-              <span class="position">Spacecraft Software Engineer</span>
-              <small class="dates">Aug 2013 - Nov 2013</small>
-            </div>
-          </header>
-          <div class="summary">
             <p>
-              I built a satellite's radio module in <strong>C</strong> and <strong>FreeRTOS</strong> for ground-to-space communications, including communications, diagnostics and file transfer protocols.
-            </p>
-          </div>
-        </section>
-        <section class="item">
-          <header>
-            <h3 class="name"><a href="https://www.expensify.com/" target="external">Expensify</a></h3>
-            <div class="subhead">
-              <span class="position">Senior Software Engineer</span>
-              <small class="dates">Feb 2013 - Jun 2013</small>
-            </div>
-          </header>
-          <div class="summary">
-            <p>
-              Built new features and bank integrations on their <strong>PHP</strong> backend.
-            </p>
-          </div>
-        </section>
-        <section class="item">
-          <header>
-            <h3 class="name"><a href="https://www.ingrooves.com/" target="external">INgrooves</a></h3>
-            <div class="subhead">
-              <span class="position">Senior Software Engineer / Engineering Manager</span>
-              <small class="dates">Apr 2009 - Dec 2012</small>
-            </div>
-          </header>
-          <div class="summary">
-            <p>
-              Designed enterprise-level system for album ingestion, facilitating distribution of valuable musical properties. Led technical teams on major company-wide projects. Bootstrapped INscribe Digital, an ebook distribution platform, generating a new revenue stream.
+              <strong>Company got acquired by Dub5, Inc in May, 2015.</strong>
             </p>
           </div>
         </section>
